@@ -1,0 +1,7 @@
+double vdolar, vreais, cotacao;
+Console.WriteLine("Digite o valor em reais: ");
+vreais = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("digite o valor da cotação do dólar: ");
+cotacao = Convert.ToDouble(Console.ReadLine());
+vdolar = vreais / cotacao;
+Console.WriteLine("O valor de dolares dessa quantia é: " + vdolar);
