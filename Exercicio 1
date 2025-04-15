@@ -1,0 +1,8 @@
+// Exercicio 1
+int num1, num2, res;
+Console.Write("Escreva o primeiro número: ");
+num1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Escreva o segundo número: ");
+num2 = Convert.ToInt32(Console.ReadLine());
+res = num1 + num2;
+Console.Write("Esse é o resultado de sua conta: " + res);
