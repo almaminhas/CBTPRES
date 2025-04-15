@@ -1,0 +1,7 @@
+﻿int Anasc, Aatual, Idatual;
+Console.WriteLine("Digite seu ano de nascimento: ");
+Anasc = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Digite o ano atual: ");
+Aatual = Convert.ToInt32(Console.ReadLine());
+Idatual = Aatual - Anasc;
+Console.WriteLine("Sua idade é: " + Idatual);
