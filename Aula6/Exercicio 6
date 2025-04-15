@@ -1,0 +1,7 @@
+double altura, raio, volume;
+Console.Write("Digite o valor do altura: ");
+altura = Convert.ToDouble(Console.ReadLine());
+Console.Write("Digite o valor do raio: ");
+raio = Convert.ToDouble(Console.ReadLine());
+volume = 3.14 * raio * raio * altura;
+Console.WriteLine("O valor do volume: " + volume);
