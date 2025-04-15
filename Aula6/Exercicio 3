@@ -1,0 +1,5 @@
+﻿double diskm, ditm;
+Console.WriteLine("Digite a distância em km: ");
+diskm = Convert.ToDouble(Console.ReadLine());
+dism = diskm * 100;
+Console.WriteLine("A distância em metros é: " + dism);
