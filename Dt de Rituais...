@@ -1,0 +1,9 @@
+int n1, n2, n11, n22, vtotal;
+Console.Write("Escreva o valor inicial, até 7: ")
+n1 = Convert.ToInt64(Console.Readline());
+Console.Write("Escreva o segundo valor, também até 7: ")
+n2 = Convert.ToInt64(Console.Readline());
+n11 = n1 * 5;
+n22 = n2 * 5;
+vtotal = n11 + n22;
+Console.Writeline("Este é o valor da sua nova DT de Rituais: " + vtotal)
